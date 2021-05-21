@@ -15,7 +15,7 @@ const ServicesModal = (props) => {
     const handleCard = (e) =>{
         e.preventDefault();
 
-        setCardSShow(true); // Here we change state
+        setCardSShow(false); // Here we change state
     }
 
     
