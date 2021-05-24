@@ -27,13 +27,16 @@ const Header = () => {
                 'text-align': 'center',
                 'color': '#FFFEFE',
             }}>
-                <h1>
+                <h1 style={{marginTop:"50px"}}>
                     Move Butlers
                 </h1>
                 <span>
                     One Stop Shop for all moving services
                 </span>
-                <ServicesModal />
+                <span>
+                    <ServicesModal style/>
+                </span>
+                
             </section>
             
         </div>

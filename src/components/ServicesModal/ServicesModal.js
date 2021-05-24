@@ -22,7 +22,7 @@ const ServicesModal = (props) => {
   
     return (
       <>
-        <Button variant="primary" onClick={handleShow}>
+        <Button style={{marginTop:"20px"}} variant="primary" onClick={handleShow}>
           Get Started Today
         </Button>
   
@@ -35,11 +35,11 @@ const ServicesModal = (props) => {
           </Modal.Body>
           <Modal.Footer>
           {props.render && 
-                <Button variant="primary" type="submit" onClick={handleCard} >
+                <Button  variant="primary" type="submit" onClick={handleCard} >
                     Submit
                 </Button>
           }
-          {isCardShow && <Cards/>}
+          {/* {isCardShow && <Cards/>} */}
             <Button variant="secondary" onClick={handleClose}>
               Close
             </Button>

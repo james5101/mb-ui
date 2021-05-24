@@ -6,6 +6,7 @@ import Home from "./pages/Home"
 import ServiceCard from "./components/Cards/Cards"
 import ServicesModal from "./components/ServicesModal/ServicesModal"
 import 'bootstrap/dist/css/bootstrap.css';
+import './css/theme.css'
 import { BrowserRouter as Router,Route } from "react-router-dom";
 
 function App() {

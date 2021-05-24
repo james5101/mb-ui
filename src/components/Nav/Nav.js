@@ -10,12 +10,12 @@ const NavbarMB = () => {
     return (
         <div>
             <IconContext.Provider value={{ color: '#fff' }}>
-                <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+                <Navbar className="navbar-dark bg-dark">
                     <NavbarBrand href="/">
                         <FaTruckMoving style={iconStyles} />
                         Moving Butlers
                     </NavbarBrand>
-                    <Nav className="mr-auto ms-auto">
+                    <Nav className="ml-auto">
                         <NavItem>
                             <NavLink href="#home">Home</NavLink>
                         </NavItem>
